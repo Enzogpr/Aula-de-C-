@@ -1,4 +1,6 @@
-﻿namespace Aula8_if
+﻿using System.Numerics;
+
+namespace Aula8_if
 {
     class C_if
     {
@@ -6,7 +8,7 @@
         {
             int nota;
             string resultado = "aprovado";
-
+         
             Console.WriteLine("Digite a nota: ");
             nota = int.Parse(Console.ReadLine());
             if (nota >= 60)
